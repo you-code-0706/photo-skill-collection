@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>照片视觉输出 Skill 合集 · Photo-to-Visual Skill Collection</title>
+<meta name="description" content="照片 → 视觉输出（海报 / 插画 / 印刷 / 杂志 HTML）类 AI Skill 索引。">
+<meta name="theme-color" content="#c2410c">
+<meta property="og:title" content="照片视觉输出 Skill 合集">
+<meta property="og:description" content="照片 → 视觉输出（海报 / 插画 / 印刷 / 杂志 HTML）类 AI Skill 索引。">
+<meta property="og:image" content="https://you-code-0706.github.io/photo-skill-collection/pic/s05_1.jpg">
+<meta property="og:url" content="https://you-code-0706.github.io/photo-skill-collection">
+<meta property="og:type" content="website">
+<link rel="icon" href="pic/s05_1.jpg" type="image/jpeg">
+<style>
+  :root {
+    --ink: #1a1a1a; --paper: #f7f4ee; --accent: #c2410c; --muted: #78716c; --line: #e7e2d8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Songti SC", "Noto Serif SC", Georgia, "Times New Roman", serif;
+    background: var(--paper); color: var(--ink); line-height: 1.6; padding-bottom: 80px;
+  }
+  header.hero { border-bottom: 3px double var(--ink); padding: 56px 24px 40px; text-align: center; }
+  header.hero h1 { font-size: clamp(28px, 5vw, 52px); font-weight: 700; letter-spacing: 0.04em; }
+  header.hero .sub { margin-top: 12px; font-size: 15px; color: var(--muted); max-width: 720px; margin-inline: auto; }
+  header.hero .badges { margin-top: 18px; font-size: 13px; }
+  header.hero .badges span, header.hero .badges a {
+    display: inline-block; border: 1px solid var(--ink); padding: 3px 12px;
+    margin: 0 4px 6px; border-radius: 999px; background: #fff;
+  }
+  header.hero .badges a { color: var(--accent); text-decoration: none; font-weight: 700; }
+  header.hero .badges a:hover { background: var(--ink); color: #fff; }
+  nav.toc {
+    position: sticky; top: 0; z-index: 50; background: rgba(247,244,238,0.95);
+    backdrop-filter: blur(6px); border-bottom: 1px solid var(--line);
+    padding: 10px 16px; text-align: center; font-size: 13.5px;
+  }
+  nav.toc a { color: var(--accent); text-decoration: none; margin: 0 10px; }
+  nav.toc a:hover { text-decoration: underline; }
+  section.block { max-width: 1200px; margin: 48px auto 0; padding: 0 24px; }
+  section.block h2 { font-size: 24px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); margin-bottom: 6px; }
+  section.block .desc { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
+  .card {
+    background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+    display: flex; flex-direction: column; transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .card:hover { box-shadow: 0 10px 28px rgba(0,0,0,0.10); transform: translateY(-2px); }
+  .card .thumbs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--line); aspect-ratio: 3 / 1.0; }
+  .card .thumbs img { width: 100%; height: 100%; object-fit: cover; cursor: zoom-in; display: block; }
+  .card .thumbs .empty {
+    background: repeating-linear-gradient(45deg, #efe9dd, #efe9dd 8px, #e7e0d2 8px, #e7e0d2 16px);
+    display: flex; align-items: center; justify-content: center; color: #a8a096; font-size: 12px; letter-spacing: 0.2em;
+  }
+  .card .body { padding: 12px 14px 14px; display: flex; flex-direction: column; flex: 1; }
+  .card .name { font-size: 17px; font-weight: 700; }
+  .card .name a { color: var(--ink); text-decoration: none; }
+  .card .name a:hover { color: var(--accent); }
+  .card .author { font-size: 12.5px; color: var(--muted); margin: 2px 0 8px; }
+  .card .style { font-size: 13.5px; color: #444; flex: 1; }
+  .card .meta { margin-top: 10px; font-size: 11.5px; color: var(--muted); }
+  .card .meta .lic { border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
+  .card .meta .stars { letter-spacing: 0.02em; }
+  .card .meta .qscore { font-weight: 700; color: var(--accent); margin-right: 6px; }
+  .card .meta .qverdict { font-size: 11px; color: var(--accent); border: 1px solid var(--accent); border-radius: 4px; padding: 1px 6px; margin-right: 8px; }
+  .card .link { margin-top: 12px; font-size: 12.5px; }
+  .card .link a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+  .card .link a:hover { border-bottom-style: solid; }
+  footer { margin-top: 64px; text-align: center; color: var(--muted); font-size: 12.5px; padding: 0 24px; }
+  #lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,0.88); display: none; align-items: center; justify-content: center; flex-direction: column; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 82vh; border: 2px solid #fff; box-shadow: 0 8px 40px rgba(0,0,0,0.5); background: #fff; }
+  #lightbox .cap { color: #ddd; margin-top: 12px; font-size: 14px; max-width: 80vw; text-align: center; }
+  #lightbox .close { position: absolute; top: 18px; right: 28px; color: #fff; font-size: 34px; cursor: pointer; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>照片视觉输出 Skill 合集</h1>
+  <div class="sub">照片 → 视觉输出（海报 / 插画 / 印刷 / 杂志 HTML）类 AI Skill 索引。</div>
+  <div class="badges">
+    <span>🧩 共 67 个 skill</span>
+    <span>🖼 64 项带样图（120 张）</span>
+    <span>📅 2026-08-14 核对</span>
+    <a href="https://github.com/you-code-0706/photo-skill-collection" target="_blank" rel="noopener">GitHub 仓库 ↗</a>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#part-2a">二A · 照片 → 海报/插画</a>
+  <a href="#part-2b">二B · 杂志 / HTML / 印刷</a>
+  <a href="#notes">备注</a>
+</nav>
+
+<div id="sections"></div>
+
+<section class="block" id="notes">
+  <h2>备注</h2>
+  <ul style="font-size:14px;color:#444;margin-top:10px;padding-left:20px;line-height:2">
+    <li>本合集聚焦「照片 → 视觉输出」同族 skill（海报/插画/印刷/杂志 HTML）。</li>
+    <li>样图来自上游仓库 [tluy/skill-zine-summary](https://github.com/tluy/skill-zine-summary)，可跳转查看；其余仓库无可用样图，图片位空缺。</li>
+    <li>样图版权归各仓库作者所有，仅作索引展示。</li>
+  </ul>
+</section>
+
+<footer>
+照片视觉输出 Skill 合集 · 各 skill 版权归原作者 · 配套 <a href="README.md">README.md</a>
+</footer>
+
+<div id="lightbox">
+  <span class="close" id="lbClose">×</span>
+  <img id="lbImg" alt="">
+  <div class="cap" id="lbCap"></div>
+</div>
+
+<script>
+
+const sections = [{"id": "2a", "section": "二A · 照片 → 海报 / 插画", "nav": "二A · 照片 → 海报/插画", "note": "输入照片（个别接受文字 brief），输出海报、插画、艺术化画面等位图视觉作品。", "has_imgs": true, "items": [{"n": "gc-minimal-zine-poster", "a": "liamgvchi", "u": "https://github.com/liamgvchi/gc-minimal-zine-poster", "s": "安静的极简 zine 编辑海报：确定性提示词与图片生成（Codex skill）。", "t": "极简 zine 海报", "imgs": ["pic/s05_1.jpg", "pic/s05_2.jpg", "pic/s05_3.jpg"], "lic": "MIT License", "stars": "5873", "qtotal": 7.5, "qverdict": "可用"}, {"n": "photo-abstract-editorial", "a": "zzzlc0405", "u": "https://github.com/zzzlc0405/photo-abstract-editorial", "s": "照片 → 抽象编辑海报（photo abstract editorial）。", "t": "抽象编辑海报", "imgs": ["pic/s13_1.jpg", "pic/s13_2.jpg", "pic/s13_3.jpg"], "lic": "NOASSERTION", "stars": "3480", "qtotal": 6.0, "qverdict": "谨慎可用"}, {"n": "gathered-scenes-zine-skill", "a": "zeejay0", "u": "https://github.com/zeejay0/gathered-scenes-zine-skill", "s": "照片 → 场景收集 zine（gathered scenes zine skill，含场景蒸馏子 skill）。", "t": "zine / 场景蒸馏", "imgs": ["pic/s04_1.jpg", "pic/s04_2.jpg", "pic/s04_3.jpg"], "lic": "NOASSERTION", "stars": "3382", "qtotal": 5.0, "qverdict": "谨慎可用"}, {"n": "cinema-dna-21x9x3", "a": "dacnay816y62-hub", "u": "https://github.com/dacnay816y62-hub/cinema-dna-21x9x3", "s": "高级感电影画面生成：21:9 宽幅电影 DNA 视觉。", "t": "电影感宽幅画面", "imgs": ["pic/s34_1.jpg", "pic/s34_2.jpg", "pic/s34_3.jpg"], "lic": "NOASSERTION", "stars": "900", "qtotal": 7.0, "qverdict": "可用"}, {"n": "travel-photo-abstraction", "a": "Evianis", "u": "https://github.com/Evianis/travel-photo-abstraction", "s": "旅行/日常照片 → 稀疏编辑抽象：上方原照片 + 下方极简抽象面板（source-available，确定性拼版）。", "t": "抽象合成面板", "imgs": ["pic/s03_1.jpg", "pic/s03_2.jpg", "pic/s03_3.jpg"], "lic": "NOASSERTION", "stars": "535", "qtotal": 5.0, "qverdict": "谨慎可用"}, {"n": "photo-revival", "a": "dacnay816y62-hub", "u": "https://github.com/dacnay816y62-hub/photo-revival", "s": "日常照片 → 诗意的白纸手绘插画（poetic white-paper hand-drawn illustrations）。", "t": "白纸手绘插画", "imgs": ["pic/s06_1.jpg", "pic/s06_2.jpg", "pic/s06_3.jpg"], "lic": "MIT License", "stars": "362", "qtotal": 8.0, "qverdict": "可用"}, {"n": "tait-crt-interface-skill", "a": "tait-tt", "u": "https://github.com/tait-tt/tait-crt-interface-skill", "s": "人像/照片/文字 → 复古 CRT 界面风插画（Codex 图像生成 skill）。", "t": "CRT 复古插画", "imgs": ["pic/s29_1.jpg", "pic/s29_2.jpg", "pic/s29_3.jpg"], "lic": "NOASSERTION", "stars": "347", "qtotal": 6.5, "qverdict": "谨慎可用"}, {"n": "antibes-holiday", "a": "haorantang97", "u": "https://github.com/haorantang97/antibes-holiday", "s": "便携松弛黑笔插画 Agent Skill 与 Codex 插件（安提比斯假日风）。", "t": "黑笔松弛插画", "imgs": ["pic/s26_1.jpg", "pic/s26_2.jpg", "pic/s26_3.jpg"], "lic": "MIT License", "stars": "235", "qtotal": 7.0, "qverdict": "可用"}, {"n": "culture-fragment-poster-engine", "a": "dacnay816y62-hub", "u": "https://github.com/dacnay816y62-hub/culture-fragment-poster-engine", "s": "快速搭建审美优质的海报 / KV 平面视觉（文化碎片海报引擎）。", "t": "海报 / 平面视觉", "imgs": ["pic/s32_1.jpg", "pic/s32_2.jpg", "pic/s32_3.jpg"], "lic": "NOASSERTION", "stars": "162", "qtotal": 7.0, "qverdict": "可用"}, {"n": "photo-relic-editorial", "a": "wnby", "u": "https://github.com/wnby/photo-relic-editorial", "s": "真实照片 → Photo Relic 编辑作品：真实照片 + 安静的纸记忆印刷（truthful photographs paired with quiet paper-memory prints）。", "t": "编辑艺术印刷", "imgs": ["pic/s10_1.jpg", "pic/s10_2.jpg", "pic/s10_3.jpg"], "lic": "MIT License", "stars": "161", "qtotal": 8.0, "qverdict": "可用"}, {"n": "surreal-pop-collage", "a": "2998980-hue", "u": "https://github.com/2998980-hue/surreal-pop-collage", "s": "照片 → 超现实波普拼贴：黑白现实锚点 + 平涂色形 + 全图只有一个不可能的巨物。", "t": "超现实波普拼贴", "imgs": ["pic/s23_1.jpg", "pic/s23_2.jpg", "pic/s23_3.jpg"], "lic": "MIT License", "stars": "135", "qtotal": 8.0, "qverdict": "可用"}, {"n": "heytea-style", "a": "hchen1218", "u": "https://github.com/hchen1218/heytea-style", "s": "喜茶风品牌插画（heytea-style 视觉风格）。", "t": "品牌风插画", "imgs": ["pic/s47_1.jpg", "pic/s47_2.jpg", "pic/s47_3.jpg"], "lic": "NOASSERTION", "stars": "135", "qtotal": 8.0, "qverdict": "可用"}, {"n": "photo-to-zine-postcard", "a": "Whiplashzeb", "u": "https://github.com/Whiplashzeb/photo-to-zine-postcard", "s": "照片 → zine 明信片。", "t": "zine 明信片", "imgs": ["pic/s14_1.jpg", "pic/s14_2.jpg", "pic/s14_3.jpg"], "lic": "MIT License", "stars": "88", "qtotal": 8.0, "qverdict": "可用"}, {"n": "daily-photo-playground", "a": "luji12", "u": "https://github.com/luji12/daily-photo-playground", "s": "日常照片 → 3:4 高饱和情绪编辑海报：暖白外页 + 高饱和版心，放大主体 + 小原照窗口 + 中央文字。", "t": "3:4 情绪海报", "imgs": ["pic/s01_1.jpg", "pic/s01_2.jpg", "pic/s01_3.jpg"], "lic": "NOASSERTION", "stars": "71", "qtotal": 6.5, "qverdict": "谨慎可用"}, {"n": "fantasy-qiqiguaiguai-skill", "a": "dacnay816y62-hub", "u": "https://github.com/dacnay816y62-hub/fantasy-qiqiguaiguai-skill", "s": "趣味编辑社媒帖、3:4 海报、拼贴、街拍、宠物、旅行与中国字排版（FANTASY 奇奇怪怪）。", "t": "趣味海报 / 拼贴", "imgs": ["pic/s30_1.jpg", "pic/s30_2.jpg", "pic/s30_3.jpg"], "lic": "MIT License", "stars": "68", "qtotal": 8.0, "qverdict": "可用"}, {"n": "fantasy-movie-poster-skill", "a": "dacnay816y62-hub", "u": "https://github.com/dacnay816y62-hub/fantasy-movie-poster-skill", "s": "奇幻电影海报生成 skill。", "t": "奇幻电影海报", "imgs": ["pic/s35_1.jpg", "pic/s35_2.jpg", "pic/s35_3.jpg"], "lic": "NOASSERTION", "stars": "68", "qtotal": 8.0, "qverdict": "可用"}, {"n": "pixel-style-poster-skill", "a": "v92388375-gif", "u": "https://github.com/v92388375-gif/pixel-style-poster-skill", "s": "照片/主题 → 像素风海报。", "t": "像素风海报", "imgs": ["pic/s07_1.jpg", "pic/s07_2.jpg", "pic/s07_3.jpg"], "lic": "MIT License", "stars": "57", "qtotal": 8.0, "qverdict": "可用"}, {"n": "photo-distill", "a": "yangcodingmaster", "u": "https://github.com/yangcodingmaster/photo-distill", "s": "照片 → 蒸馏成极简海报：手写 HTML/CSS/SVG，无需图像生成模型。", "t": "极简海报 (SVG)", "imgs": ["pic/s11_1.jpg", "pic/s11_2.jpg", "pic/s11_3.jpg"], "lic": "NOASSERTION", "stars": "56", "qtotal": 8.0, "qverdict": "可用"}, {"n": "ink-wash-poster", "a": "twentyfivebtea", "u": "https://github.com/twentyfivebtea/ink-wash-poster", "s": "主题/文字/想法/参考图 → 墨染编辑海报：自适应纸色、克制排版。", "t": "墨染编辑海报", "imgs": ["pic/s16_1.jpg", "pic/s16_2.jpg", "pic/s16_3.jpg"], "lic": "GPL-3.0", "stars": "40", "qtotal": 7.5, "qverdict": "可用"}, {"n": "ai-editorial-print-studio", "a": "liuzihe849-png", "u": "https://github.com/liuzihe849-png/ai-editorial-print-studio", "s": "照片 → 复古编辑印刷插画（美食、饮品、风景、建筑、人像、产品）。", "t": "复古印刷插画", "imgs": ["pic/s19_1.jpg", "pic/s19_2.jpg", "pic/s19_3.jpg"], "lic": "MIT License", "stars": "35", "qtotal": 8.5, "qverdict": "可用"}, {"n": "dyy_photo_deconstruct", "a": "121dyy", "u": "https://github.com/121dyy/dyy_photo_deconstruct", "s": "真实照片 → 旧纸竖版墨染剪影解构 zine 海报：85–92% 留白、克制配色、日韩独立杂志调性。", "t": "3:5 解构海报", "imgs": ["pic/s02_1.jpg", "pic/s02_2.jpg", "pic/s02_3.jpg"], "lic": "NOASSERTION", "stars": "22", "qtotal": 7.0, "qverdict": "可用"}, {"n": "dreamy-motion-editorial", "a": "lzs0594", "u": "https://github.com/lzs0594/dreamy-motion-editorial", "s": "随手拍照片 → 电影感图生图提示词（梦幻朦胧动效编辑风）。", "t": "电影感图生图提示词", "imgs": ["pic/s21_1.jpg", "pic/s21_2.jpg", "pic/s21_3.jpg"], "lic": "MIT License", "stars": "21", "qtotal": 9.0, "qverdict": "可用"}, {"n": "photo-riso-poster", "a": "luckdvr", "u": "https://github.com/luckdvr/photo-riso-poster", "s": "照片或文字主题 → 安静的 riso 印刷档案海报：基于证据的抽象、2–3 色 risograph。", "t": "Riso 印刷海报", "imgs": ["pic/s24_1.jpg", "pic/s24_2.jpg", "pic/s24_3.jpg"], "lic": "MIT License", "stars": "18", "qtotal": 8.0, "qverdict": "可用"}, {"n": "poetic-line-zine-poster", "a": "zhu930824", "u": "https://github.com/zhu930824/poetic-line-zine-poster", "s": "照片 → 诗意线条 zine 海报。", "t": "诗意 zine 海报", "imgs": ["pic/s12_1.jpg", "pic/s12_2.jpg", "pic/s12_3.jpg"], "lic": "NOASSERTION", "stars": "18", "qtotal": 8.0, "qverdict": "可用"}, {"n": "flash4start_light", "a": "buantum", "u": "https://github.com/buantum/flash4start_light", "s": "照片/主题 → 闪亮轻量视觉（flash 4 start light）。", "t": "轻量视觉生成", "imgs": ["pic/s25_1.jpg", "pic/s25_2.jpg", "pic/s25_3.jpg"], "lic": "NOASSERTION", "stars": "14", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "travel-photo-soft-abstraction", "a": "wnby", "u": "https://github.com/wnby/travel-photo-soft-abstraction", "s": "旅行照片 → 上照片 / 下抽象的干净旅行作品（source-readable 软蒸馏）。", "t": "软抽象旅行作品", "imgs": ["pic/s17_1.jpg", "pic/s17_2.jpg", "pic/s17_3.jpg"], "lic": "NOASSERTION", "stars": "13", "qtotal": 6.0, "qverdict": "谨慎可用"}, {"n": "vinyl-image-generator", "a": "liigoqi", "u": "https://github.com/liigoqi/vinyl-image-generator", "s": "记忆、想法、照片、物件、摘录 → 自洽的虚构黑胶唱片发行物视觉。", "t": "黑胶封面视觉", "imgs": ["pic/s45_1.jpg", "pic/s45_2.jpg", "pic/s45_3.jpg"], "lic": "MIT License", "stars": "12", "qtotal": 7.0, "qverdict": "可用"}, {"n": "vertical-split-postcard", "a": "Nick-Job", "u": "https://github.com/Nick-Job/vertical-split-postcard", "s": "照片 → 竖分屏哑光米色专辑明信片：上半真实照片 + 下半墨染扁平插画。", "t": "竖分屏明信片", "imgs": [], "lic": "NOASSERTION", "stars": "10", "qtotal": 7.0, "qverdict": "可用"}, {"n": "photo-ink-echo", "a": "zhouaria28-cloud", "u": "https://github.com/zhouaria28-cloud/photo-ink-echo", "s": "照片 → 克制的照片 + 水彩编辑构图（restrained photo and watercolor editorial compositions）。", "t": "照片水彩编辑", "imgs": ["pic/s22_1.jpg", "pic/s22_2.jpg", "pic/s22_3.jpg"], "lic": "MIT License", "stars": "10", "qtotal": 8.0, "qverdict": "可用"}, {"n": "8bit-pixel-art", "a": "twentyfivebtea", "u": "https://github.com/twentyfivebtea/8bit-pixel-art", "s": "参考图/视觉概念 → 现代 8-bit 像素画：风格化像素渲染、精致色板、内置视觉评审。", "t": "8-bit 像素画", "imgs": ["pic/s15_1.jpg", "pic/s15_2.jpg", "pic/s15_3.jpg"], "lic": "GPL-3.0", "stars": "7", "qtotal": 7.5, "qverdict": "可用"}, {"n": "paper-spirit-zine", "a": "wnby", "u": "https://github.com/wnby/paper-spirit-zine", "s": "照片 → 纸张质感 zine 海报，原始影像在下半张纸面留下有生命感的余像。", "t": "纸感 zine 海报", "imgs": ["pic/s18_1.jpg", "pic/s18_2.jpg", "pic/s18_3.jpg"], "lic": "MIT License", "stars": "7", "qtotal": 7.0, "qverdict": "可用"}, {"n": "selective-ink-sketch", "a": "joeyhu1108-maker", "u": "https://github.com/joeyhu1108-maker/selective-ink-sketch", "s": "照片 → 选择性观察钢笔速写（有意省略与负空间）。", "t": "钢笔速写", "imgs": ["pic/s39_1.jpg", "pic/s39_2.jpg", "pic/s39_3.jpg"], "lic": "NOASSERTION", "stars": "6", "qtotal": 7.0, "qverdict": "可用"}, {"n": "magnet-zine-poster-skill", "a": "wenlinwang1991", "u": "https://github.com/wenlinwang1991/magnet-zine-poster-skill", "s": "旅行照片 → 忠实源图的磁贴 zine 海报（source-faithful travel photo magnet zine posters）。", "t": "磁贴 zine 海报", "imgs": [], "lic": "MIT License", "stars": "5", "qtotal": 8.5, "qverdict": "可用"}, {"n": "neil-quentin", "a": "Nealsun1993", "u": "https://github.com/Nealsun1993/neil-quentin", "s": "照片 → 高饱和 pulp 印刷风海报重构（high-chroma pulp-print poster）。", "t": "Pulp 印刷海报", "imgs": ["pic/s44_1.jpg", "pic/s44_2.jpg", "pic/s44_3.jpg"], "lic": "MIT License", "stars": "4", "qtotal": 7.5, "qverdict": "可用"}, {"n": "photo-to-zine-postcard-doubao", "a": "Whiplashzeb", "u": "https://github.com/Whiplashzeb/photo-to-zine-postcard-doubao", "s": "照片 → 克制的编辑 zine 明信片（Doubao 优化版）。", "t": "Zine 明信片", "imgs": [], "lic": "NOASSERTION", "stars": "3", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "zine-composition-beauty", "a": "ink7011", "u": "https://github.com/ink7011/zine-composition-beauty", "s": "真实照片 → 稀疏编辑风 zine 海报，在原 zine/海报方法上叠加自有构图美学。", "t": "Zine 海报", "imgs": [], "lic": "NOASSERTION", "stars": "3", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "photo-skills-atelier", "a": "byJming", "u": "https://github.com/byJming/photo-skills-atelier", "s": "用户照片 → 可溯源的编辑海报 + 稀疏手绘世界（editorial posters and sparse hand-drawn worlds）。", "t": "编辑海报 / 手绘世界", "imgs": [], "lic": "MIT License", "stars": "2", "qtotal": 7.5, "qverdict": "可用"}, {"n": "eumenes-photo-collage-v2", "a": "saakuu", "u": "https://github.com/saakuu/eumenes-photo-collage-v2", "s": "原始摄影图像 → 自适应拼贴：保留空间关系与主体，引入复古印刷、撕纸、纸张肌理与构成语言。", "t": "复古拼贴", "imgs": [], "lic": "GPL-3.0", "stars": "2", "qtotal": 7.0, "qverdict": "可用"}, {"n": "compose-photo-memory-archive", "a": "sbj61188-lab", "u": "https://github.com/sbj61188-lab/compose-photo-memory-archive", "s": "照片 → 编辑记忆档案作品（editorial memory archive artworks）。", "t": "记忆档案作品", "imgs": [], "lic": "MIT License", "stars": "2", "qtotal": 7.5, "qverdict": "可用"}, {"n": "handdrawn-photo-poster", "a": "luji12", "u": "https://github.com/luji12/handdrawn-photo-poster", "s": "照片 → 手绘风格海报。", "t": "手绘海报", "imgs": ["pic/s27_1.jpg", "pic/s27_2.jpg", "pic/s27_3.jpg"], "lic": "NOASSERTION", "stars": "2", "qtotal": 7.0, "qverdict": "可用"}, {"n": "scene-to-art-lab", "a": "n1ko724", "u": "https://github.com/n1ko724/scene-to-art-lab", "s": "场景 → 艺术实验室（个人/教育/非商用免费，商用需授权并署名）。", "t": "场景艺术", "imgs": ["pic/s48_1.jpg", "pic/s48_2.jpg", "pic/s48_3.jpg"], "lic": "NOASSERTION", "stars": "2", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "photo-art-diptych-poster", "a": "Ysysljj123", "u": "https://github.com/Ysysljj123/photo-art-diptych-poster", "s": "照片 → 克制的照片 + 艺术再诠释双联海报（diptych poster）。", "t": "双联海报", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 7.5, "qverdict": "可用"}, {"n": "visual-imprint-skill", "a": "adrianpunk", "u": "https://github.com/adrianpunk/visual-imprint-skill", "s": "照片 → 提炼个人 IP 视觉印记，确认后生成一致的文章插画。", "t": "个人 IP 插画", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 8.5, "qverdict": "可用"}, {"n": "handdrawn-postcard-skill", "a": "maikeliu86-coder", "u": "https://github.com/maikeliu86-coder/handdrawn-postcard-skill", "s": "照片 → 混合媒介明信片：照片锚点 + 水彩 / risograph / 丝网印刷 / 浮雕 / 摄影拼贴，随情绪变化。", "t": "混合媒介明信片", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 6.5, "qverdict": "谨慎可用"}, {"n": "still-scenes", "a": "notEhEnG", "u": "https://github.com/notEhEnG/still-scenes", "s": "个人照片/场景想法 → 可定制明信片与安静 zine 风作品：精确说明、灵活版式、照片保真。", "t": "明信片 / zine", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 6.5, "qverdict": "谨慎可用"}, {"n": "outfit-to-fashion-illustration-skill", "a": "xiaozhoustefanie227", "u": "https://github.com/xiaozhoustefanie227/outfit-to-fashion-illustration-skill", "s": "穿搭照片 → 极简时尚编辑插画：黑色墨水线、稀疏水彩、象牙纸、大留白。", "t": "时尚编辑插画", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 7.5, "qverdict": "可用"}, {"n": "make-photo-journal-art", "a": "skyxjl", "u": "https://github.com/skyxjl/make-photo-journal-art", "s": "用户照片与故事 → 主题自适应的日记、剪贴簿、日记拼贴与编辑相册作品。", "t": "日记 / 剪贴簿艺术", "imgs": [], "lic": "NOASSERTION", "stars": "1", "qtotal": 6.5, "qverdict": "谨慎可用"}, {"n": "skill-photo-art-fusion", "a": "mingzhuoFUN", "u": "https://github.com/mingzhuoFUN/skill-photo-art-fusion", "s": "融合摄影真实与可见艺术创作的 Skill（摄影 × 艺术融合）。", "t": "摄影艺术融合", "imgs": [], "lic": "NOASSERTION", "stars": "1", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "personal-ip-images", "a": "howardpen9", "u": "https://github.com/howardpen9/personal-ip-images", "s": "照片 → 确认角色 → 多形态文章/社媒艺术（个人 IP 插画，Grok Build 原生）。", "t": "个人 IP 插画", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 8.5, "qverdict": "可用"}, {"n": "eastern-ink-photo-diptych", "a": "hiseaa", "u": "https://github.com/hiseaa/eastern-ink-photo-diptych", "s": "照片 → 东方墨韵双联（eastern ink photo diptych）。", "t": "墨韵双联", "imgs": ["pic/s20_1.jpg", "pic/s20_2.jpg", "pic/s20_3.jpg"], "lic": "NOASSERTION", "stars": "1", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "photo-to-travel-sketch", "a": "liigoqi", "u": "https://github.com/liigoqi/photo-to-travel-sketch", "s": "照片 → 快速松散旅行速写：游走针管笔轮廓、激进视觉剪辑、灰调干马克笔。", "t": "旅行速写", "imgs": ["pic/s43_1.jpg", "pic/s43_2.jpg", "pic/s43_3.jpg"], "lic": "MIT License", "stars": "1", "qtotal": 7.5, "qverdict": "可用"}, {"n": "deeprouter-print-studio", "a": "1131611406wgz-netizen", "u": "https://github.com/1131611406wgz-netizen/deeprouter-print-studio", "s": "照片 → 复古编辑印刷插画（vintage editorial print），经 DeepRouter 管线处理。", "t": "复古印刷风插画", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 8.5, "qverdict": "可用"}, {"n": "reconstructed-sketches", "a": "BobbyThe2nd", "u": "https://github.com/BobbyThe2nd/reconstructed-sketches", "s": "照片 → 手绘观察素描：重建透视、几何简化、可见结构线、低饱和色调。", "t": "手绘素描", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "gc-poetic-zine-poster", "a": "Exzzz5315", "u": "https://github.com/Exzzz5315/gc-poetic-zine-poster", "s": "文字 + 照片 → 诗意 zine 海报，善用留白负空间，GPT Image 兼容。", "t": "诗意 zine 海报", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "sumi-studio-designer", "a": "H1234L1", "u": "https://github.com/H1234L1/sumi-studio-designer", "s": "日常照片 → 极简日式编辑艺术：墨风插画（ink-style illustration）。", "t": "日式墨风编辑插画", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "Korean-style-clipart", "a": "Xin7ai", "u": "https://github.com/Xin7ai/Korean-style-clipart", "s": "照片 → 编辑剪贴簿拼贴、数字日记版式、Y2K 纸艺情绪板，忠实还原源图。", "t": "拼贴 / 情绪板", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 8.5, "qverdict": "可用"}, {"n": "zine-poster-skill", "a": "jas0nh", "u": "https://github.com/jas0nh/zine-poster-skill", "s": "照片/文字 → 触感 zine 海报与照片编辑拼贴：确定性提示词编译器，GPT Image 兼容。", "t": "Zine 海报 / 拼贴", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 8.5, "qverdict": "可用"}, {"n": "vivid-acrylic-marker-photo-skill", "a": "mengfanfreyachan", "u": "https://github.com/mengfanfreyachan/vivid-acrylic-marker-photo-skill", "s": "照片 → 忠实、无描边的丙烯马克笔色块插画。", "t": "丙烯马克笔插画", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "pet-storybook-painter-skill", "a": "xiaozhoustefanie227", "u": "https://github.com/xiaozhoustefanie227/pet-storybook-painter-skill", "s": "宠物照片 → 松散、异想天开的手绘绘本角色。", "t": "手绘绘本角色", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "photo-to-handdrawn-poster-postcard", "a": "Matthew0824", "u": "https://github.com/Matthew0824/photo-to-handdrawn-poster-postcard", "s": "照片 → 锐利照片 + 手绘旅行海报明信片。", "t": "手绘旅行海报 / 明信片", "imgs": [], "lic": "NOASSERTION", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "neil-night-skill", "a": "Nealsun1993", "u": "https://github.com/Nealsun1993/neil-night-skill", "s": "普通夜景照片 → 氛围 9:16 工业雾感场景（受控互补光）。", "t": "9:16 夜景氛围图", "imgs": ["pic/s28_1.jpg", "pic/s28_2.jpg", "pic/s28_3.jpg"], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "street-photo-illustration", "a": "dacnay816y62-hub", "u": "https://github.com/dacnay816y62-hub/street-photo-illustration", "s": "街拍照片 → 插画化（street photo illustration）。", "t": "街拍插画", "imgs": ["pic/s36_1.jpg", "pic/s36_2.jpg", "pic/s36_3.jpg"], "lic": "—", "stars": 0, "qtotal": 4.5, "qverdict": "谨慎可用"}, {"n": "sunwoven-reverie", "a": "wen3140", "u": "https://github.com/wen3140/sunwoven-reverie", "s": "照片 → 大胆形状设计的编辑插画（Codex + 图像生成）。", "t": "形状编辑插画", "imgs": ["pic/s38_1.jpg", "pic/s38_2.jpg", "pic/s38_3.jpg"], "lic": "NOASSERTION", "stars": "0", "qtotal": 5.5, "qverdict": "谨慎可用"}, {"n": "aigc-skills", "a": "laurent-7bk", "u": "https://github.com/laurent-7bk/aigc-skills", "s": "可复用 AIGC 技能包：图像创作与视觉工作流。", "t": "AIGC 视觉工作流", "imgs": ["pic/s46_1.jpg", "pic/s46_2.jpg", "pic/s46_3.jpg"], "lic": "NOASSERTION", "stars": "0", "qtotal": 5.5, "qverdict": "谨慎可用"}]}, {"id": "2b", "section": "二B · 杂志 / HTML / 印刷 PDF", "nav": "二B · 杂志 / HTML / 印刷", "note": "杂志风 HTML 页面、印刷级 PDF、zine 排版等输出形式。仓库无可用样图，图片位空缺。", "has_imgs": false, "items": [{"n": "journal-generator", "a": "acumen-skill", "u": "https://github.com/acumen-skill/journal-generator", "s": "照片 + JSON 配置 → 3:4 杂志风 journal 页面（S-flow 与清单版式，纯 Pillow，无需设计技能）。", "t": "杂志风页面", "imgs": [], "lic": "MIT License", "stars": "0", "qtotal": 7.5, "qverdict": "可用"}, {"n": "monarch-art-vault", "a": "diamitani", "u": "https://github.com/diamitani/monarch-art-vault", "s": "杂乱照片文件夹 → 可印刷艺术目录：保留 → 去重 → 编目 → 整理 → 准备 → 发布。", "t": "印刷艺术目录", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 8.5, "qverdict": "可用"}, {"n": "photo-evidence-atlas", "a": "elliotwoo98-dotcom", "u": "https://github.com/elliotwoo98-dotcom/photo-evidence-atlas", "s": "照片 → 确定性的编辑证据图版（deterministic editorial evidence plates）。", "t": "编辑证据图版", "imgs": [], "lic": "MIT License", "stars": "1", "qtotal": 6.5, "qverdict": "谨慎可用"}]}];
+
+function renderSection(sec) {
+  const wrap = document.createElement("section");
+  wrap.className = "block";
+  wrap.id = "part-" + sec.id;
+  let h = `<h2>${sec.section}（${sec.items.length} 项）</h2>`;
+  if (sec.note) h += `<p class="desc">${sec.note}</p>`;
+  const grid = document.createElement("div");
+  grid.className = "grid";
+  sec.items.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    let thumbs = "";
+    if (sec.has_imgs && item.imgs && item.imgs.length === 3) {
+      thumbs = item.imgs.map((src, i) =>
+        `<img src="${src}" alt="${item.n} 样图 ${i+1}" data-cap="${item.n} — 样图 ${i+1}" loading="lazy">`
+      ).join("");
+    } else {
+      thumbs = `<div class="empty">无样图</div>`;
+    }
+    card.innerHTML = `
+      <div class="thumbs">${thumbs}</div>
+      <div class="body">
+        <div class="name"><a href="${item.u}" target="_blank" rel="noopener">${item.n}</a></div>
+        <div class="author"><span class="tag">${item.t}</span>@${item.a}</div>
+        <div class="style">${item.s}</div>
+        <div class="meta">
+          <span class="qscore">${item.qtotal ? '🛡 ' + item.qtotal + '/10' : ''}</span>
+          <span class="qverdict">${item.qverdict}</span>
+          <span class="lic">${item.lic}</span><span class="stars">⭐ ${item.stars}</span>
+        </div>
+        <div class="link"><a href="${item.u}" target="_blank" rel="noopener">GitHub ↗</a></div>
+      </div>`;
+    grid.appendChild(card);
+  });
+  wrap.innerHTML = h;
+  wrap.appendChild(grid);
+  return wrap;
+}
+
+const container = document.getElementById("sections");
+sections.forEach(sec => container.appendChild(renderSection(sec)));
+
+// Lightbox
+const lb = document.getElementById("lightbox");
+const lbImg = document.getElementById("lbImg");
+const lbCap = document.getElementById("lbCap");
+document.addEventListener("click", e => {
+  if (e.target.tagName === "IMG" && e.target.closest(".thumbs")) {
+    lbImg.src = e.target.src;
+    lbCap.textContent = e.target.dataset.cap || "";
+    lb.classList.add("open");
+  }
+  if (e.target.id === "lbClose" || e.target === lb) {
+    lb.classList.remove("open");
+  }
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") lb.classList.remove("open"); });
+</script>
+
+</body>
+</html>

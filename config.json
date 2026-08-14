@@ -1,0 +1,56 @@
+{
+  "id": "photo",
+  "title": "照片视觉输出 Skill 合集",
+  "subtitle": "Photo-to-Visual Skill Collection",
+  "base_desc": "照片 → 视觉输出（海报 / 插画 / 印刷 / 杂志 HTML）类 AI Skill 索引。",
+  "bullet1": "收录的每个条目附：风格一句话描述、输入 → 输出形式、质量评分 / License / ⭐。",
+  "bullet2": "仓库无样图者图片位空缺，不影响收录。",
+  "source_repo": "",
+  "source_readme_raw": "",
+  "source_img_prefix": "pic/",
+  "gallery_url": "https://you-code-0706.github.io/photo-skill-collection/",
+  "repo_url": "https://github.com/you-code-0706/photo-skill-collection",
+  "search_queries": [
+    "photo to poster skill",
+    "photo illustration skill",
+    "photo print skill",
+    "photo magazine skill",
+    "photo editorial skill",
+    "photo to art skill",
+    "photo collage skill claude",
+    "photo zine skill",
+    "photo transform skill claude",
+    "photo art skill"
+  ],
+  "exclude_patterns": [
+    "skill-registry",
+    "awesome-skill",
+    "skills-marketplace",
+    "-list",
+    "collection"
+  ],
+  "known_subskill_repos": [],
+  "default_part": "2a",
+  "categories": [
+    {
+      "id": "2a",
+      "title": "照片 → 海报 / 插画",
+      "section": "二A · 照片 → 海报 / 插画",
+      "nav": "二A · 照片 → 海报/插画",
+      "note": "输入照片（个别接受文字 brief），输出海报、插画、艺术化画面等位图视觉作品。",
+      "has_imgs": true
+    },
+    {
+      "id": "2b",
+      "title": "杂志 / HTML / 印刷 PDF",
+      "section": "二B · 杂志 / HTML / 印刷 PDF",
+      "nav": "二B · 杂志 / HTML / 印刷",
+      "note": "杂志风 HTML 页面、印刷级 PDF、zine 排版等输出形式。仓库无可用样图，图片位空缺。",
+      "has_imgs": false
+    }
+  ],
+  "notes": [
+    "本合集聚焦「照片 → 视觉输出」同族 skill（海报/插画/印刷/杂志 HTML）。",
+    "样图来自上游仓库 [tluy/skill-zine-summary](https://github.com/tluy/skill-zine-summary)，可跳转查看；其余仓库无可用样图，图片位空缺。"
+  ]
+}

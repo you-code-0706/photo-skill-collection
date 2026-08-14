@@ -1,0 +1,4457 @@
+{
+  "meta": {
+    "title": "照片视觉输出 Skill 合集",
+    "source_repo": "",
+    "updated_at": "2026-08-14"
+  },
+  "skills": [
+    {
+      "name": "gc-minimal-zine-poster",
+      "author": "liamgvchi",
+      "url": "https://github.com/liamgvchi/gc-minimal-zine-poster",
+      "style": "安静的极简 zine 编辑海报：确定性提示词与图片生成（Codex skill）。",
+      "output": "极简 zine 海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s05_1.jpg",
+        "pic/s05_2.jpg",
+        "pic/s05_3.jpg"
+      ],
+      "tags": [
+        "gc-minimal-zine-poster 样图 1",
+        "gc-minimal-zine-poster 样图 2",
+        "gc-minimal-zine-poster 样图 3"
+      ],
+      "stars": "5873",
+      "pushed_at": "2026-08-13T15:12:25Z",
+      "forks": 246,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.04 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "AYE"
+    },
+    {
+      "name": "photo-abstract-editorial",
+      "author": "zzzlc0405",
+      "url": "https://github.com/zzzlc0405/photo-abstract-editorial",
+      "style": "照片 → 抽象编辑海报（photo abstract editorial）。",
+      "output": "抽象编辑海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s13_1.jpg",
+        "pic/s13_2.jpg",
+        "pic/s13_3.jpg"
+      ],
+      "tags": [
+        "photo-abstract-editorial 样图 1",
+        "photo-abstract-editorial 样图 2",
+        "photo-abstract-editorial 样图 3"
+      ],
+      "stars": "3480",
+      "pushed_at": "2026-08-13T10:17:27Z",
+      "forks": 222,
+      "open_issues": 6,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 0.0,
+            "max": 2.0,
+            "detail": "issue 关闭率 0%（0关/6开，0.0/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.06 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "issue 积压：关闭率仅 0%（6 个未处理）",
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑",
+          "star 虚高警示：3480 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.0/10，存在短板（issue 积压：关闭率仅 0%（6 个未处理）；无许可证声明，商用有法律风险），建议小范围验证后使用"
+      },
+      "img_author": "凌云志"
+    },
+    {
+      "name": "gathered-scenes-zine-skill",
+      "author": "zeejay0",
+      "url": "https://github.com/zeejay0/gathered-scenes-zine-skill",
+      "style": "照片 → 场景收集 zine（gathered scenes zine skill，含场景蒸馏子 skill）。",
+      "output": "zine / 场景蒸馏",
+      "part": "2a",
+      "imgs": [
+        "pic/s04_1.jpg",
+        "pic/s04_2.jpg",
+        "pic/s04_3.jpg"
+      ],
+      "tags": [
+        "gathered-scenes-zine-skill 样图 1",
+        "gathered-scenes-zine-skill 样图 2",
+        "gathered-scenes-zine-skill 样图 3"
+      ],
+      "stars": "3382",
+      "pushed_at": "2026-08-11T18:47:10Z",
+      "forks": 385,
+      "open_issues": 10,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 0.0,
+            "max": 2.0,
+            "detail": "issue 关闭率 0%（0关/10开，0.0/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.11 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "issue 积压：关闭率仅 0%（10 个未处理）",
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑",
+          "star 虚高警示：3382 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.0/10，存在短板（issue 积压：关闭率仅 0%（10 个未处理）；无许可证声明，商用有法律风险），建议小范围验证后使用"
+      },
+      "img_author": "LightJoyJet"
+    },
+    {
+      "name": "cinema-dna-21x9x3",
+      "author": "dacnay816y62-hub",
+      "url": "https://github.com/dacnay816y62-hub/cinema-dna-21x9x3",
+      "style": "高级感电影画面生成：21:9 宽幅电影 DNA 视觉。",
+      "output": "电影感宽幅画面",
+      "part": "2a",
+      "imgs": [
+        "pic/s34_1.jpg",
+        "pic/s34_2.jpg",
+        "pic/s34_3.jpg"
+      ],
+      "tags": [
+        "cinema-dna-21x9x3 样图 1",
+        "cinema-dna-21x9x3 样图 2",
+        "cinema-dna-21x9x3 样图 3"
+      ],
+      "stars": "900",
+      "pushed_at": "2026-07-25T13:28:39Z",
+      "forks": 89,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.7 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.10 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑",
+          "star 虚高警示：900 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "梵想美学"
+    },
+    {
+      "name": "travel-photo-abstraction",
+      "author": "Evianis",
+      "url": "https://github.com/Evianis/travel-photo-abstraction",
+      "style": "旅行/日常照片 → 稀疏编辑抽象：上方原照片 + 下方极简抽象面板（source-available，确定性拼版）。",
+      "output": "抽象合成面板",
+      "part": "2a",
+      "imgs": [
+        "pic/s03_1.jpg",
+        "pic/s03_2.jpg",
+        "pic/s03_3.jpg"
+      ],
+      "tags": [
+        "travel-photo-abstraction 样图 1",
+        "travel-photo-abstraction 样图 2",
+        "travel-photo-abstraction 样图 3"
+      ],
+      "stars": "535",
+      "pushed_at": "2026-08-03T00:24:09Z",
+      "forks": 35,
+      "open_issues": 1,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.4 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 0.0,
+            "max": 2.0,
+            "detail": "issue 关闭率 0%（0关/1开，0.0/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.07 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑",
+          "star 虚高警示：535 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.0/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "土建三局包工头"
+    },
+    {
+      "name": "photo-revival",
+      "author": "dacnay816y62-hub",
+      "url": "https://github.com/dacnay816y62-hub/photo-revival",
+      "style": "日常照片 → 诗意的白纸手绘插画（poetic white-paper hand-drawn illustrations）。",
+      "output": "白纸手绘插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s06_1.jpg",
+        "pic/s06_2.jpg",
+        "pic/s06_3.jpg"
+      ],
+      "tags": [
+        "photo-revival 样图 1",
+        "photo-revival 样图 2",
+        "photo-revival 样图 3"
+      ],
+      "pushed_at": "2026-08-02T04:10:59Z",
+      "forks": 41,
+      "open_issues": 0,
+      "stars": "362",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.4 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.11 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "章台竹"
+    },
+    {
+      "name": "tait-crt-interface-skill",
+      "author": "tait-tt",
+      "url": "https://github.com/tait-tt/tait-crt-interface-skill",
+      "style": "人像/照片/文字 → 复古 CRT 界面风插画（Codex 图像生成 skill）。",
+      "output": "CRT 复古插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s29_1.jpg",
+        "pic/s29_2.jpg",
+        "pic/s29_3.jpg"
+      ],
+      "tags": [
+        "tait-crt-interface-skill 样图 1",
+        "tait-crt-interface-skill 样图 2",
+        "tait-crt-interface-skill 样图 3"
+      ],
+      "stars": "347",
+      "pushed_at": "2026-08-11T06:22:03Z",
+      "forks": 15,
+      "open_issues": 1,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 0.0,
+            "max": 2.0,
+            "detail": "issue 关闭率 0%（0关/1开，0.0/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.04 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "star 虚高警示：347 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.5/10，存在短板（无许可证声明，商用有法律风险；star 虚高警示：347 star 但无许可证，高热度≠高质量），建议小范围验证后使用"
+      },
+      "img_author": "糖油炸弹💣"
+    },
+    {
+      "name": "antibes-holiday",
+      "author": "haorantang97",
+      "url": "https://github.com/haorantang97/antibes-holiday",
+      "style": "便携松弛黑笔插画 Agent Skill 与 Codex 插件（安提比斯假日风）。",
+      "output": "黑笔松弛插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s26_1.jpg",
+        "pic/s26_2.jpg",
+        "pic/s26_3.jpg"
+      ],
+      "tags": [
+        "antibes-holiday 样图 1",
+        "antibes-holiday 样图 2",
+        "antibes-holiday 样图 3"
+      ],
+      "stars": "235",
+      "pushed_at": "2026-07-26T13:30:40Z",
+      "forks": 13,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.6 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.06 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "Lab 305"
+    },
+    {
+      "name": "culture-fragment-poster-engine",
+      "author": "dacnay816y62-hub",
+      "url": "https://github.com/dacnay816y62-hub/culture-fragment-poster-engine",
+      "style": "快速搭建审美优质的海报 / KV 平面视觉（文化碎片海报引擎）。",
+      "output": "海报 / 平面视觉",
+      "part": "2a",
+      "imgs": [
+        "pic/s32_1.jpg",
+        "pic/s32_2.jpg",
+        "pic/s32_3.jpg"
+      ],
+      "tags": [
+        "culture-fragment-poster-engine 样图 1",
+        "culture-fragment-poster-engine 样图 2",
+        "culture-fragment-poster-engine 样图 3"
+      ],
+      "stars": "162",
+      "pushed_at": "2026-07-22T13:51:17Z",
+      "forks": 21,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.8 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.13 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑",
+          "star 虚高警示：162 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "梵想美学"
+    },
+    {
+      "name": "photo-relic-editorial",
+      "author": "wnby",
+      "url": "https://github.com/wnby/photo-relic-editorial",
+      "style": "真实照片 → Photo Relic 编辑作品：真实照片 + 安静的纸记忆印刷（truthful photographs paired with quiet paper-memory prints）。",
+      "output": "编辑艺术印刷",
+      "part": "2a",
+      "imgs": [
+        "pic/s10_1.jpg",
+        "pic/s10_2.jpg",
+        "pic/s10_3.jpg"
+      ],
+      "tags": [
+        "photo-relic-editorial 样图 1",
+        "photo-relic-editorial 样图 2",
+        "photo-relic-editorial 样图 3"
+      ],
+      "pushed_at": "2026-08-05T02:37:31Z",
+      "forks": 13,
+      "open_issues": 0,
+      "stars": "161",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.08 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "丁真の赛博牧场"
+    },
+    {
+      "name": "surreal-pop-collage",
+      "author": "2998980-hue",
+      "url": "https://github.com/2998980-hue/surreal-pop-collage",
+      "style": "照片 → 超现实波普拼贴：黑白现实锚点 + 平涂色形 + 全图只有一个不可能的巨物。",
+      "output": "超现实波普拼贴",
+      "part": "2a",
+      "imgs": [
+        "pic/s23_1.jpg",
+        "pic/s23_2.jpg",
+        "pic/s23_3.jpg"
+      ],
+      "tags": [
+        "surreal-pop-collage 样图 1",
+        "surreal-pop-collage 样图 2",
+        "surreal-pop-collage 样图 3"
+      ],
+      "stars": "135",
+      "pushed_at": "2026-08-08T18:11:19Z",
+      "forks": 8,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.06 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "理想鲨鲨"
+    },
+    {
+      "name": "heytea-style",
+      "author": "hchen1218",
+      "url": "https://github.com/hchen1218/heytea-style",
+      "style": "喜茶风品牌插画（heytea-style 视觉风格）。",
+      "output": "品牌风插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s47_1.jpg",
+        "pic/s47_2.jpg",
+        "pic/s47_3.jpg"
+      ],
+      "tags": [
+        "heytea-style 样图 1",
+        "heytea-style 样图 2",
+        "heytea-style 样图 3"
+      ],
+      "stars": "135",
+      "pushed_at": "2026-08-06T01:09:45Z",
+      "forks": 13,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.10 健康社区（1/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "star 虚高警示：135 star 但无许可证，高热度≠高质量"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "设计goo"
+    },
+    {
+      "name": "photo-to-zine-postcard",
+      "author": "Whiplashzeb",
+      "url": "https://github.com/Whiplashzeb/photo-to-zine-postcard",
+      "style": "照片 → zine 明信片。",
+      "output": "zine 明信片",
+      "part": "2a",
+      "imgs": [
+        "pic/s14_1.jpg",
+        "pic/s14_2.jpg",
+        "pic/s14_3.jpg"
+      ],
+      "tags": [
+        "photo-to-zine-postcard 样图 1",
+        "photo-to-zine-postcard 样图 2",
+        "photo-to-zine-postcard 样图 3"
+      ],
+      "stars": "88",
+      "pushed_at": "2026-08-07T11:39:48Z",
+      "forks": 12,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.14 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "王二_Wanger"
+    },
+    {
+      "name": "daily-photo-playground",
+      "author": "luji12",
+      "url": "https://github.com/luji12/daily-photo-playground",
+      "style": "日常照片 → 3:4 高饱和情绪编辑海报：暖白外页 + 高饱和版心，放大主体 + 小原照窗口 + 中央文字。",
+      "output": "3:4 情绪海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s01_1.jpg",
+        "pic/s01_2.jpg",
+        "pic/s01_3.jpg"
+      ],
+      "tags": [
+        "daily-photo-playground 样图 1",
+        "daily-photo-playground 样图 2",
+        "daily-photo-playground 样图 3"
+      ],
+      "stars": "71",
+      "pushed_at": "2026-08-05T09:51:05Z",
+      "forks": 2,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.03 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "螂狗日记"
+    },
+    {
+      "name": "fantasy-qiqiguaiguai-skill",
+      "author": "dacnay816y62-hub",
+      "url": "https://github.com/dacnay816y62-hub/fantasy-qiqiguaiguai-skill",
+      "style": "趣味编辑社媒帖、3:4 海报、拼贴、街拍、宠物、旅行与中国字排版（FANTASY 奇奇怪怪）。",
+      "output": "趣味海报 / 拼贴",
+      "part": "2a",
+      "imgs": [
+        "pic/s30_1.jpg",
+        "pic/s30_2.jpg",
+        "pic/s30_3.jpg"
+      ],
+      "tags": [
+        "fantasy-qiqiguaiguai-skill 样图 1",
+        "fantasy-qiqiguaiguai-skill 样图 2",
+        "fantasy-qiqiguaiguai-skill 样图 3"
+      ],
+      "stars": "68",
+      "pushed_at": "2026-08-04T19:54:50Z",
+      "forks": 6,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.09 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "梵想美学"
+    },
+    {
+      "name": "fantasy-movie-poster-skill",
+      "author": "dacnay816y62-hub",
+      "url": "https://github.com/dacnay816y62-hub/fantasy-movie-poster-skill",
+      "style": "奇幻电影海报生成 skill。",
+      "output": "奇幻电影海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s35_1.jpg",
+        "pic/s35_2.jpg",
+        "pic/s35_3.jpg"
+      ],
+      "tags": [
+        "fantasy-movie-poster-skill 样图 1",
+        "fantasy-movie-poster-skill 样图 2",
+        "fantasy-movie-poster-skill 样图 3"
+      ],
+      "stars": "68",
+      "pushed_at": "2026-07-27T03:59:29Z",
+      "forks": 11,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.6 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.16 健康社区（1/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "梵想美学"
+    },
+    {
+      "name": "pixel-style-poster-skill",
+      "author": "v92388375-gif",
+      "url": "https://github.com/v92388375-gif/pixel-style-poster-skill",
+      "style": "照片/主题 → 像素风海报。",
+      "output": "像素风海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s07_1.jpg",
+        "pic/s07_2.jpg",
+        "pic/s07_3.jpg"
+      ],
+      "tags": [
+        "pixel-style-poster-skill 样图 1",
+        "pixel-style-poster-skill 样图 2",
+        "pixel-style-poster-skill 样图 3"
+      ],
+      "stars": "57",
+      "pushed_at": "2026-07-25T13:56:37Z",
+      "forks": 4,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.7 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.07 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "米兰的弹舌"
+    },
+    {
+      "name": "photo-distill",
+      "author": "yangcodingmaster",
+      "url": "https://github.com/yangcodingmaster/photo-distill",
+      "style": "照片 → 蒸馏成极简海报：手写 HTML/CSS/SVG，无需图像生成模型。",
+      "output": "极简海报 (SVG)",
+      "part": "2a",
+      "imgs": [
+        "pic/s11_1.jpg",
+        "pic/s11_2.jpg",
+        "pic/s11_3.jpg"
+      ],
+      "tags": [
+        "photo-distill 样图 1",
+        "photo-distill 样图 2",
+        "photo-distill 样图 3"
+      ],
+      "stars": "56",
+      "pushed_at": "2026-08-03T21:49:37Z",
+      "forks": 4,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.4 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.07 健康社区（1/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "yangholdon"
+    },
+    {
+      "name": "ink-wash-poster",
+      "author": "twentyfivebtea",
+      "url": "https://github.com/twentyfivebtea/ink-wash-poster",
+      "style": "主题/文字/想法/参考图 → 墨染编辑海报：自适应纸色、克制排版。",
+      "output": "墨染编辑海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s16_1.jpg",
+        "pic/s16_2.jpg",
+        "pic/s16_3.jpg"
+      ],
+      "tags": [
+        "ink-wash-poster 样图 1",
+        "ink-wash-poster 样图 2",
+        "ink-wash-poster 样图 3"
+      ],
+      "stars": "40",
+      "pushed_at": "2026-07-30T07:46:17Z",
+      "forks": 5,
+      "open_issues": 0,
+      "license": "GPL-3.0",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.5 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "GPL-3.0（copyleft，商用需注意传染性 0.5/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.12 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "copyleft 许可 GPL-3.0：商用需评估传染性",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "Twe_5"
+    },
+    {
+      "name": "ai-editorial-print-studio",
+      "author": "liuzihe849-png",
+      "url": "https://github.com/liuzihe849-png/ai-editorial-print-studio",
+      "style": "照片 → 复古编辑印刷插画（美食、饮品、风景、建筑、人像、产品）。",
+      "output": "复古印刷插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s19_1.jpg",
+        "pic/s19_2.jpg",
+        "pic/s19_3.jpg"
+      ],
+      "tags": [
+        "ai-editorial-print-studio 样图 1",
+        "ai-editorial-print-studio 样图 2",
+        "ai-editorial-print-studio 样图 3"
+      ],
+      "stars": "35",
+      "pushed_at": "2026-08-10T16:38:07Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.03 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "理智画"
+    },
+    {
+      "name": "dyy_photo_deconstruct",
+      "author": "121dyy",
+      "url": "https://github.com/121dyy/dyy_photo_deconstruct",
+      "style": "真实照片 → 旧纸竖版墨染剪影解构 zine 海报：85–92% 留白、克制配色、日韩独立杂志调性。",
+      "output": "3:5 解构海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s02_1.jpg",
+        "pic/s02_2.jpg",
+        "pic/s02_3.jpg"
+      ],
+      "tags": [
+        "dyy_photo_deconstruct 样图 1",
+        "dyy_photo_deconstruct 样图 2",
+        "dyy_photo_deconstruct 样图 3"
+      ],
+      "stars": "22",
+      "pushed_at": "2026-08-05T08:21:08Z",
+      "forks": 2,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.09 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "dyy"
+    },
+    {
+      "name": "dreamy-motion-editorial",
+      "author": "lzs0594",
+      "url": "https://github.com/lzs0594/dreamy-motion-editorial",
+      "style": "随手拍照片 → 电影感图生图提示词（梦幻朦胧动效编辑风）。",
+      "output": "电影感图生图提示词",
+      "part": "2a",
+      "imgs": [
+        "pic/s21_1.jpg",
+        "pic/s21_2.jpg",
+        "pic/s21_3.jpg"
+      ],
+      "tags": [
+        "dreamy-motion-editorial 样图 1",
+        "dreamy-motion-editorial 样图 2",
+        "dreamy-motion-editorial 样图 3"
+      ],
+      "pushed_at": "2026-08-09T15:25:50Z",
+      "forks": 4,
+      "open_issues": 0,
+      "stars": "21",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 9.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.19 健康社区（1/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 9.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "Aomo"
+    },
+    {
+      "name": "photo-riso-poster",
+      "author": "luckdvr",
+      "url": "https://github.com/luckdvr/photo-riso-poster",
+      "style": "照片或文字主题 → 安静的 riso 印刷档案海报：基于证据的抽象、2–3 色 risograph。",
+      "output": "Riso 印刷海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s24_1.jpg",
+        "pic/s24_2.jpg",
+        "pic/s24_3.jpg"
+      ],
+      "tags": [
+        "photo-riso-poster 样图 1",
+        "photo-riso-poster 样图 2",
+        "photo-riso-poster 样图 3"
+      ],
+      "pushed_at": "2026-08-04T02:06:40Z",
+      "forks": 1,
+      "open_issues": 0,
+      "stars": "18",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.06 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "咕咕咕咕咕嵩鼠"
+    },
+    {
+      "name": "poetic-line-zine-poster",
+      "author": "zhu930824",
+      "url": "https://github.com/zhu930824/poetic-line-zine-poster",
+      "style": "照片 → 诗意线条 zine 海报。",
+      "output": "诗意 zine 海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s12_1.jpg",
+        "pic/s12_2.jpg",
+        "pic/s12_3.jpg"
+      ],
+      "tags": [
+        "poetic-line-zine-poster 样图 1",
+        "poetic-line-zine-poster 样图 2",
+        "poetic-line-zine-poster 样图 3"
+      ],
+      "stars": "18",
+      "pushed_at": "2026-08-11T06:12:17Z",
+      "forks": 2,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.11 健康社区（1/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "诗意线条海报"
+    },
+    {
+      "name": "flash4start_light",
+      "author": "buantum",
+      "url": "https://github.com/buantum/flash4start_light",
+      "style": "照片/主题 → 闪亮轻量视觉（flash 4 start light）。",
+      "output": "轻量视觉生成",
+      "part": "2a",
+      "imgs": [
+        "pic/s25_1.jpg",
+        "pic/s25_2.jpg",
+        "pic/s25_3.jpg"
+      ],
+      "tags": [
+        "flash4start_light 样图 1",
+        "flash4start_light 样图 2",
+        "flash4start_light 样图 3"
+      ],
+      "stars": "14",
+      "pushed_at": "2026-08-03T13:25:47Z",
+      "forks": 0,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.4 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "LensWalker📷"
+    },
+    {
+      "name": "travel-photo-soft-abstraction",
+      "author": "wnby",
+      "url": "https://github.com/wnby/travel-photo-soft-abstraction",
+      "style": "旅行照片 → 上照片 / 下抽象的干净旅行作品（source-readable 软蒸馏）。",
+      "output": "软抽象旅行作品",
+      "part": "2a",
+      "imgs": [
+        "pic/s17_1.jpg",
+        "pic/s17_2.jpg",
+        "pic/s17_3.jpg"
+      ],
+      "tags": [
+        "travel-photo-soft-abstraction 样图 1",
+        "travel-photo-soft-abstraction 样图 2",
+        "travel-photo-soft-abstraction 样图 3"
+      ],
+      "stars": "13",
+      "pushed_at": "2026-08-07T06:34:11Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.08 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.0/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "像素拌饭"
+    },
+    {
+      "name": "vinyl-image-generator",
+      "author": "liigoqi",
+      "url": "https://github.com/liigoqi/vinyl-image-generator",
+      "style": "记忆、想法、照片、物件、摘录 → 自洽的虚构黑胶唱片发行物视觉。",
+      "output": "黑胶封面视觉",
+      "part": "2a",
+      "imgs": [
+        "pic/s45_1.jpg",
+        "pic/s45_2.jpg",
+        "pic/s45_3.jpg"
+      ],
+      "tags": [
+        "vinyl-image-generator 样图 1",
+        "vinyl-image-generator 样图 2",
+        "vinyl-image-generator 样图 3"
+      ],
+      "stars": "12",
+      "pushed_at": "2026-08-03T03:40:34Z",
+      "forks": 2,
+      "open_issues": 1,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.4 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 0.0,
+            "max": 2.0,
+            "detail": "issue 关闭率 0%（0关/1开，0.0/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.17 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "𝒀𝒐𝒔𝒆𝒎𝒊𝒕𝒆"
+    },
+    {
+      "name": "vertical-split-postcard",
+      "author": "Nick-Job",
+      "url": "https://github.com/Nick-Job/vertical-split-postcard",
+      "style": "照片 → 竖分屏哑光米色专辑明信片：上半真实照片 + 下半墨染扁平插画。",
+      "output": "竖分屏明信片",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-12T05:17:21Z",
+      "forks": 1,
+      "open_issues": 0,
+      "stars": "10",
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.10 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "photo-ink-echo",
+      "author": "zhouaria28-cloud",
+      "url": "https://github.com/zhouaria28-cloud/photo-ink-echo",
+      "style": "照片 → 克制的照片 + 水彩编辑构图（restrained photo and watercolor editorial compositions）。",
+      "output": "照片水彩编辑",
+      "part": "2a",
+      "imgs": [
+        "pic/s22_1.jpg",
+        "pic/s22_2.jpg",
+        "pic/s22_3.jpg"
+      ],
+      "tags": [
+        "photo-ink-echo 样图 1",
+        "photo-ink-echo 样图 2",
+        "photo-ink-echo 样图 3"
+      ],
+      "pushed_at": "2026-08-09T13:36:46Z",
+      "forks": 2,
+      "open_issues": 0,
+      "stars": "10",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.20 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "Cinderella"
+    },
+    {
+      "name": "8bit-pixel-art",
+      "author": "twentyfivebtea",
+      "url": "https://github.com/twentyfivebtea/8bit-pixel-art",
+      "style": "参考图/视觉概念 → 现代 8-bit 像素画：风格化像素渲染、精致色板、内置视觉评审。",
+      "output": "8-bit 像素画",
+      "part": "2a",
+      "imgs": [
+        "pic/s15_1.jpg",
+        "pic/s15_2.jpg",
+        "pic/s15_3.jpg"
+      ],
+      "tags": [
+        "8bit-pixel-art 样图 1",
+        "8bit-pixel-art 样图 2",
+        "8bit-pixel-art 样图 3"
+      ],
+      "stars": "7",
+      "pushed_at": "2026-08-11T04:57:45Z",
+      "forks": 2,
+      "open_issues": 0,
+      "license": "GPL-3.0",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "GPL-3.0（copyleft，商用需注意传染性 0.5/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.29 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "copyleft 许可 GPL-3.0：商用需评估传染性",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "Twe_5"
+    },
+    {
+      "name": "paper-spirit-zine",
+      "author": "wnby",
+      "url": "https://github.com/wnby/paper-spirit-zine",
+      "style": "照片 → 纸张质感 zine 海报，原始影像在下半张纸面留下有生命感的余像。",
+      "output": "纸感 zine 海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s18_1.jpg",
+        "pic/s18_2.jpg",
+        "pic/s18_3.jpg"
+      ],
+      "tags": [
+        "paper-spirit-zine 样图 1",
+        "paper-spirit-zine 样图 2",
+        "paper-spirit-zine 样图 3"
+      ],
+      "stars": "7",
+      "pushed_at": "2026-08-09T06:08:50Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.14 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "像素拌饭"
+    },
+    {
+      "name": "selective-ink-sketch",
+      "author": "joeyhu1108-maker",
+      "url": "https://github.com/joeyhu1108-maker/selective-ink-sketch",
+      "style": "照片 → 选择性观察钢笔速写（有意省略与负空间）。",
+      "output": "钢笔速写",
+      "part": "2a",
+      "imgs": [
+        "pic/s39_1.jpg",
+        "pic/s39_2.jpg",
+        "pic/s39_3.jpg"
+      ],
+      "tags": [
+        "selective-ink-sketch 样图 1",
+        "selective-ink-sketch 样图 2",
+        "selective-ink-sketch 样图 3"
+      ],
+      "stars": "6",
+      "pushed_at": "2026-08-08T07:59:29Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.17 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "卓一_Z·ONE"
+    },
+    {
+      "name": "magnet-zine-poster-skill",
+      "author": "wenlinwang1991",
+      "url": "https://github.com/wenlinwang1991/magnet-zine-poster-skill",
+      "style": "旅行照片 → 忠实源图的磁贴 zine 海报（source-faithful travel photo magnet zine posters）。",
+      "output": "磁贴 zine 海报",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-07T15:18:52Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "5",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "neil-quentin",
+      "author": "Nealsun1993",
+      "url": "https://github.com/Nealsun1993/neil-quentin",
+      "style": "照片 → 高饱和 pulp 印刷风海报重构（high-chroma pulp-print poster）。",
+      "output": "Pulp 印刷海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s44_1.jpg",
+        "pic/s44_2.jpg",
+        "pic/s44_3.jpg"
+      ],
+      "tags": [
+        "neil-quentin 样图 1",
+        "neil-quentin 样图 2",
+        "neil-quentin 样图 3"
+      ],
+      "pushed_at": "2026-08-11T07:52:54Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "4",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "尼尔.S"
+    },
+    {
+      "name": "photo-to-zine-postcard-doubao",
+      "author": "Whiplashzeb",
+      "url": "https://github.com/Whiplashzeb/photo-to-zine-postcard-doubao",
+      "style": "照片 → 克制的编辑 zine 明信片（Doubao 优化版）。",
+      "output": "Zine 明信片",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-09T04:35:04Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "3",
+      "license": "NOASSERTION",
+      "has_readme": false,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：SKILL.md（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    },
+    {
+      "name": "zine-composition-beauty",
+      "author": "ink7011",
+      "url": "https://github.com/ink7011/zine-composition-beauty",
+      "style": "真实照片 → 稀疏编辑风 zine 海报，在原 zine/海报方法上叠加自有构图美学。",
+      "output": "Zine 海报",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-08T15:22:51Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "3",
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    },
+    {
+      "name": "photo-skills-atelier",
+      "author": "byJming",
+      "url": "https://github.com/byJming/photo-skills-atelier",
+      "style": "用户照片 → 可溯源的编辑海报 + 稀疏手绘世界（editorial posters and sparse hand-drawn worlds）。",
+      "output": "编辑海报 / 手绘世界",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-09T23:34:14Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "2",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "eumenes-photo-collage-v2",
+      "author": "saakuu",
+      "url": "https://github.com/saakuu/eumenes-photo-collage-v2",
+      "style": "原始摄影图像 → 自适应拼贴：保留空间关系与主体，引入复古印刷、撕纸、纸张肌理与构成语言。",
+      "output": "复古拼贴",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-10T15:27:41Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "2",
+      "license": "GPL-3.0",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "GPL-3.0（copyleft，商用需注意传染性 0.5/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "copyleft 许可 GPL-3.0：商用需评估传染性",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "compose-photo-memory-archive",
+      "author": "sbj61188-lab",
+      "url": "https://github.com/sbj61188-lab/compose-photo-memory-archive",
+      "style": "照片 → 编辑记忆档案作品（editorial memory archive artworks）。",
+      "output": "记忆档案作品",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-11T17:31:21Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "2",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "handdrawn-photo-poster",
+      "author": "luji12",
+      "url": "https://github.com/luji12/handdrawn-photo-poster",
+      "style": "照片 → 手绘风格海报。",
+      "output": "手绘海报",
+      "part": "2a",
+      "imgs": [
+        "pic/s27_1.jpg",
+        "pic/s27_2.jpg",
+        "pic/s27_3.jpg"
+      ],
+      "tags": [
+        "handdrawn-photo-poster 样图 1",
+        "handdrawn-photo-poster 样图 2",
+        "handdrawn-photo-poster 样图 3"
+      ],
+      "stars": "2",
+      "pushed_at": "2026-08-08T08:01:41Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.0,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "Fork/Star=0.50 健康社区（1/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.0/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "螂狗日记"
+    },
+    {
+      "name": "scene-to-art-lab",
+      "author": "n1ko724",
+      "url": "https://github.com/n1ko724/scene-to-art-lab",
+      "style": "场景 → 艺术实验室（个人/教育/非商用免费，商用需授权并署名）。",
+      "output": "场景艺术",
+      "part": "2a",
+      "imgs": [
+        "pic/s48_1.jpg",
+        "pic/s48_2.jpg",
+        "pic/s48_3.jpg"
+      ],
+      "tags": [
+        "scene-to-art-lab 样图 1",
+        "scene-to-art-lab 样图 2",
+        "scene-to-art-lab 样图 3"
+      ],
+      "stars": "2",
+      "pushed_at": "2026-08-13T04:14:26Z",
+      "forks": 0,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "N1ko"
+    },
+    {
+      "name": "photo-art-diptych-poster",
+      "author": "Ysysljj123",
+      "url": "https://github.com/Ysysljj123/photo-art-diptych-poster",
+      "style": "照片 → 克制的照片 + 艺术再诠释双联海报（diptych poster）。",
+      "output": "双联海报",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-12T14:25:59Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "visual-imprint-skill",
+      "author": "adrianpunk",
+      "url": "https://github.com/adrianpunk/visual-imprint-skill",
+      "style": "照片 → 提炼个人 IP 视觉印记，确认后生成一致的文章插画。",
+      "output": "个人 IP 插画",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-09T08:25:03Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "handdrawn-postcard-skill",
+      "author": "maikeliu86-coder",
+      "url": "https://github.com/maikeliu86-coder/handdrawn-postcard-skill",
+      "style": "照片 → 混合媒介明信片：照片锚点 + 水彩 / risograph / 丝网印刷 / 浮雕 / 摄影拼贴，随情绪变化。",
+      "output": "混合媒介明信片",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-11T17:06:47Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.5/10，存在短板（无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    },
+    {
+      "name": "still-scenes",
+      "author": "notEhEnG",
+      "url": "https://github.com/notEhEnG/still-scenes",
+      "style": "个人照片/场景想法 → 可定制明信片与安静 zine 风作品：精确说明、灵活版式、照片保真。",
+      "output": "明信片 / zine",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-11T12:54:53Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.5/10，存在短板（无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    },
+    {
+      "name": "outfit-to-fashion-illustration-skill",
+      "author": "xiaozhoustefanie227",
+      "url": "https://github.com/xiaozhoustefanie227/outfit-to-fashion-illustration-skill",
+      "style": "穿搭照片 → 极简时尚编辑插画：黑色墨水线、稀疏水彩、象牙纸、大留白。",
+      "output": "时尚编辑插画",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-06T08:26:43Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "make-photo-journal-art",
+      "author": "skyxjl",
+      "url": "https://github.com/skyxjl/make-photo-journal-art",
+      "style": "用户照片与故事 → 主题自适应的日记、剪贴簿、日记拼贴与编辑相册作品。",
+      "output": "日记 / 剪贴簿艺术",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-13T07:54:11Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    },
+    {
+      "name": "skill-photo-art-fusion",
+      "author": "mingzhuoFUN",
+      "url": "https://github.com/mingzhuoFUN/skill-photo-art-fusion",
+      "style": "融合摄影真实与可见艺术创作的 Skill（摄影 × 艺术融合）。",
+      "output": "摄影艺术融合",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-13T07:02:51Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    },
+    {
+      "name": "personal-ip-images",
+      "author": "howardpen9",
+      "url": "https://github.com/howardpen9/personal-ip-images",
+      "style": "照片 → 确认角色 → 多形态文章/社媒艺术（个人 IP 插画，Grok Build 原生）。",
+      "output": "个人 IP 插画",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-10T08:19:42Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "eastern-ink-photo-diptych",
+      "author": "hiseaa",
+      "url": "https://github.com/hiseaa/eastern-ink-photo-diptych",
+      "style": "照片 → 东方墨韵双联（eastern ink photo diptych）。",
+      "output": "墨韵双联",
+      "part": "2a",
+      "imgs": [
+        "pic/s20_1.jpg",
+        "pic/s20_2.jpg",
+        "pic/s20_3.jpg"
+      ],
+      "tags": [
+        "eastern-ink-photo-diptych 样图 1",
+        "eastern-ink-photo-diptych 样图 2",
+        "eastern-ink-photo-diptych 样图 3"
+      ],
+      "stars": "1",
+      "pushed_at": "2026-08-09T15:09:33Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=1.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "长曝研究院×柳生"
+    },
+    {
+      "name": "photo-to-travel-sketch",
+      "author": "liigoqi",
+      "url": "https://github.com/liigoqi/photo-to-travel-sketch",
+      "style": "照片 → 快速松散旅行速写：游走针管笔轮廓、激进视觉剪辑、灰调干马克笔。",
+      "output": "旅行速写",
+      "part": "2a",
+      "imgs": [
+        "pic/s43_1.jpg",
+        "pic/s43_2.jpg",
+        "pic/s43_3.jpg"
+      ],
+      "tags": [
+        "photo-to-travel-sketch 样图 1",
+        "photo-to-travel-sketch 样图 2",
+        "photo-to-travel-sketch 样图 3"
+      ],
+      "stars": "1",
+      "pushed_at": "2026-08-11T04:47:48Z",
+      "forks": 0,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "小灯只工作不上班"
+    },
+    {
+      "name": "deeprouter-print-studio",
+      "author": "1131611406wgz-netizen",
+      "url": "https://github.com/1131611406wgz-netizen/deeprouter-print-studio",
+      "style": "照片 → 复古编辑印刷插画（vintage editorial print），经 DeepRouter 管线处理。",
+      "output": "复古印刷风插画",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-11T06:25:25Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "reconstructed-sketches",
+      "author": "BobbyThe2nd",
+      "url": "https://github.com/BobbyThe2nd/reconstructed-sketches",
+      "style": "照片 → 手绘观察素描：重建透视、几何简化、可见结构线、低饱和色调。",
+      "output": "手绘素描",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-09T03:03:32Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "gc-poetic-zine-poster",
+      "author": "Exzzz5315",
+      "url": "https://github.com/Exzzz5315/gc-poetic-zine-poster",
+      "style": "文字 + 照片 → 诗意 zine 海报，善用留白负空间，GPT Image 兼容。",
+      "output": "诗意 zine 海报",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-04T06:55:39Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.3 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "sumi-studio-designer",
+      "author": "H1234L1",
+      "url": "https://github.com/H1234L1/sumi-studio-designer",
+      "style": "日常照片 → 极简日式编辑艺术：墨风插画（ink-style illustration）。",
+      "output": "日式墨风编辑插画",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-07T12:41:15Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "Korean-style-clipart",
+      "author": "Xin7ai",
+      "url": "https://github.com/Xin7ai/Korean-style-clipart",
+      "style": "照片 → 编辑剪贴簿拼贴、数字日记版式、Y2K 纸艺情绪板，忠实还原源图。",
+      "output": "拼贴 / 情绪板",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-11T09:36:34Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "zine-poster-skill",
+      "author": "jas0nh",
+      "url": "https://github.com/jas0nh/zine-poster-skill",
+      "style": "照片/文字 → 触感 zine 海报与照片编辑拼贴：确定性提示词编译器，GPT Image 兼容。",
+      "output": "Zine 海报 / 拼贴",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-09T07:52:53Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": true,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本+CI（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "vivid-acrylic-marker-photo-skill",
+      "author": "mengfanfreyachan",
+      "url": "https://github.com/mengfanfreyachan/vivid-acrylic-marker-photo-skill",
+      "style": "照片 → 忠实、无描边的丙烯马克笔色块插画。",
+      "output": "丙烯马克笔插画",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-07T06:20:20Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "pet-storybook-painter-skill",
+      "author": "xiaozhoustefanie227",
+      "url": "https://github.com/xiaozhoustefanie227/pet-storybook-painter-skill",
+      "style": "宠物照片 → 松散、异想天开的手绘绘本角色。",
+      "output": "手绘绘本角色",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-12T07:20:42Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "photo-to-handdrawn-poster-postcard",
+      "author": "Matthew0824",
+      "url": "https://github.com/Matthew0824/photo-to-handdrawn-poster-postcard",
+      "style": "照片 → 锐利照片 + 手绘旅行海报明信片。",
+      "output": "手绘旅行海报 / 明信片",
+      "part": "2a",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-11T01:17:06Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "neil-night-skill",
+      "author": "Nealsun1993",
+      "url": "https://github.com/Nealsun1993/neil-night-skill",
+      "style": "普通夜景照片 → 氛围 9:16 工业雾感场景（受控互补光）。",
+      "output": "9:16 夜景氛围图",
+      "part": "2a",
+      "imgs": [
+        "pic/s28_1.jpg",
+        "pic/s28_2.jpg",
+        "pic/s28_3.jpg"
+      ],
+      "tags": [
+        "neil-night-skill 样图 1",
+        "neil-night-skill 样图 2",
+        "neil-night-skill 样图 3"
+      ],
+      "stars": "0",
+      "pushed_at": "2026-08-09T04:51:46Z",
+      "forks": 0,
+      "open_issues": 0,
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      },
+      "img_author": "尼尔.S"
+    },
+    {
+      "name": "street-photo-illustration",
+      "author": "dacnay816y62-hub",
+      "url": "https://github.com/dacnay816y62-hub/street-photo-illustration",
+      "style": "街拍照片 → 插画化（street photo illustration）。",
+      "output": "街拍插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s36_1.jpg",
+        "pic/s36_2.jpg",
+        "pic/s36_3.jpg"
+      ],
+      "tags": [
+        "street-photo-illustration 样图 1",
+        "street-photo-illustration 样图 2",
+        "street-photo-illustration 样图 3"
+      ],
+      "stars": 0,
+      "quality": {
+        "total": 4.5,
+        "breakdown": {
+          "active": {
+            "score": 1.0,
+            "max": 3.0,
+            "detail": "无 pushed_at 数据（中性 1/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 数据（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无法获取提交时间，活跃度按中性处理",
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 4.5/10，存在短板（无法获取提交时间，活跃度按中性处理；无许可证声明，商用有法律风险），建议小范围验证后使用"
+      },
+      "img_author": "梵想美学"
+    },
+    {
+      "name": "sunwoven-reverie",
+      "author": "wen3140",
+      "url": "https://github.com/wen3140/sunwoven-reverie",
+      "style": "照片 → 大胆形状设计的编辑插画（Codex + 图像生成）。",
+      "output": "形状编辑插画",
+      "part": "2a",
+      "imgs": [
+        "pic/s38_1.jpg",
+        "pic/s38_2.jpg",
+        "pic/s38_3.jpg"
+      ],
+      "tags": [
+        "sunwoven-reverie 样图 1",
+        "sunwoven-reverie 样图 2",
+        "sunwoven-reverie 样图 3"
+      ],
+      "stars": "0",
+      "pushed_at": "2026-08-10T10:36:26Z",
+      "forks": 0,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.1 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "云间一纸书"
+    },
+    {
+      "name": "aigc-skills",
+      "author": "laurent-7bk",
+      "url": "https://github.com/laurent-7bk/aigc-skills",
+      "style": "可复用 AIGC 技能包：图像创作与视觉工作流。",
+      "output": "AIGC 视觉工作流",
+      "part": "2a",
+      "imgs": [
+        "pic/s46_1.jpg",
+        "pic/s46_2.jpg",
+        "pic/s46_3.jpg"
+      ],
+      "tags": [
+        "aigc-skills 样图 1",
+        "aigc-skills 样图 2",
+        "aigc-skills 样图 3"
+      ],
+      "stars": "0",
+      "pushed_at": "2026-08-13T09:02:36Z",
+      "forks": 1,
+      "open_issues": 0,
+      "license": "NOASSERTION",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 5.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 0.0,
+            "max": 1.0,
+            "detail": "无许可证（0/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无许可证声明，商用有法律风险",
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 5.5/10，存在短板（无许可证声明，商用有法律风险；无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      },
+      "img_author": "Laurent"
+    },
+    {
+      "name": "journal-generator",
+      "author": "acumen-skill",
+      "url": "https://github.com/acumen-skill/journal-generator",
+      "style": "照片 + JSON 配置 → 3:4 杂志风 journal 页面（S-flow 与清单版式，纯 Pillow，无需设计技能）。",
+      "output": "杂志风页面",
+      "part": "2b",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-09T13:16:58Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "0",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 7.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.2 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "无 star（0.5/1，中性）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 7.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "monarch-art-vault",
+      "author": "diamitani",
+      "url": "https://github.com/diamitani/monarch-art-vault",
+      "style": "杂乱照片文件夹 → 可印刷艺术目录：保留 → 去重 → 编目 → 整理 → 准备 → 发布。",
+      "output": "印刷艺术目录",
+      "part": "2b",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-07-24T22:30:00Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": true,
+      "has_tests": false,
+      "has_scripts": true,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 8.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.7 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 2.0,
+            "max": 2.0,
+            "detail": "文档：README+SKILL.md（2/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "工程化：脚本（1/1）"
+          }
+        },
+        "risks": [],
+        "verdict": "可用",
+        "verdict_reason": "总分 8.5/10，核心维度（活跃/文档/许可）达标，可纳入业务使用"
+      }
+    },
+    {
+      "name": "photo-evidence-atlas",
+      "author": "elliotwoo98-dotcom",
+      "url": "https://github.com/elliotwoo98-dotcom/photo-evidence-atlas",
+      "style": "照片 → 确定性的编辑证据图版（deterministic editorial evidence plates）。",
+      "output": "编辑证据图版",
+      "part": "2b",
+      "imgs": [],
+      "tags": [],
+      "pushed_at": "2026-08-13T05:26:27Z",
+      "forks": 0,
+      "open_issues": 0,
+      "stars": "1",
+      "license": "MIT License",
+      "has_readme": true,
+      "has_skillmd": false,
+      "has_tests": false,
+      "has_scripts": false,
+      "has_ci": false,
+      "has_version": false,
+      "quality": {
+        "total": 6.5,
+        "breakdown": {
+          "active": {
+            "score": 3.0,
+            "max": 3.0,
+            "detail": "近 0.0 月有提交（3/3）"
+          },
+          "issues": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "无 issue 记录（中性 1/2）"
+          },
+          "docs": {
+            "score": 1.0,
+            "max": 2.0,
+            "detail": "文档：README（1/2）"
+          },
+          "license": {
+            "score": 1.0,
+            "max": 1.0,
+            "detail": "MIT License（宽松，可商用 1/1）"
+          },
+          "fork_star": {
+            "score": 0.5,
+            "max": 1.0,
+            "detail": "Fork/Star=0.00 偏离健康区间（0.5/1）"
+          },
+          "production": {
+            "score": 0,
+            "max": 1.0,
+            "detail": "工程化：无（0/1）"
+          }
+        },
+        "risks": [
+          "无测试/脚本/版本号/CI，生产可用性存疑"
+        ],
+        "verdict": "谨慎可用",
+        "verdict_reason": "总分 6.5/10，存在短板（无测试/脚本/版本号/CI，生产可用性存疑），建议小范围验证后使用"
+      }
+    }
+  ],
+  "excluded": []
+}
