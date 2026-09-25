@@ -2,15 +2,21 @@
 
 > 本文件为 GitHub 公共仓库版（`photo-skill-collection`）的补充说明，随发布包上传至仓库根目录。
 
-## 一、本文件的位置
+## 一、本文件的位置，以及仓库中的许可相关文件
 
-- **仓库内路径**：根目录 `LICENSE.md`，与 [`README.md`](README.md)、[`index.html`](index.html) 同级。
-- **来源**：由合集实例目录 `collections/photo/` 的 GitHub 公共仓库版产物 `public/` 打包发布，与 `public/README.md`、`public/index.html` 一并复制到仓库根目录。
-- **作用**：GitHub 依据仓库根目录的 `LICENSE.md` 识别本仓库的许可证（MIT）。
+本仓库根目录（与 [`README.md`](README.md)、[`index.html`](index.html) 同级）共有两个许可相关文件：
+
+| 文件 | 位置 | 作用 |
+|---|---|---|
+| [`LICENSE`](LICENSE) | 仓库根目录 | 本仓库许可证全文（MIT），GitHub 依据它识别仓库许可证 |
+| [`LICENSE.md`](LICENSE.md) | 仓库根目录 | 本说明文档（即本文件）：位置、许可证信息、收录项目与上游一致、上游同步要求 |
+
+- **来源**：两者均由合集实例目录 `collections/photo/` 的 GitHub 公共仓库版产物 `public/` 打包发布，与 `README.md`、`index.html` 一并复制到仓库根目录。
+- **分工**：`LICENSE` 承担标准许可证声明（纯许可证文本，便于 GitHub 识别），`LICENSE.md` 承担补充说明；两者内容不冲突，许可条款以 `LICENSE` 为准。
 
 ## 二、本仓库的许可证：MIT License
 
-本仓库自身的内容——包括 `README.md`、`index.html`、`data/skills.json`（索引数据）及本说明文档——采用 **MIT License**：
+本仓库自身的内容——包括 `README.md`、`index.html`、`data/skills.json`（索引数据）及本说明文档——采用 **MIT License**，全文见根目录 [`LICENSE`](LICENSE)，两者内容一致：
 
 ```
 MIT License
